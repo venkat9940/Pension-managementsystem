@@ -1,0 +1,244 @@
+    1  git init
+    2  git init
+    3  .git init
+    4  git 
+    5  git init
+    6  git init
+    7  git init
+    8  git init
+    9  git init
+   10  git init
+   11  git add *.*
+   12  git commit
+   13  git commit -m "added property files"
+   14  git cinfig --global user.mail "venkat910040@gmail.com"
+   15  git config --global user.mail "venkat910040@gmail.com"
+   16  git config --global user.name "Deekshith"
+   17  ls
+   18  date
+   19  docker run -it --rm -p 8888:8080 tomcat:9.0
+   20  docker run --rm -p 8888:8080 tomcat:9.0
+   21  docker login
+   22  cat >DockerFile
+   23  docker build -t deekshith9940/my-first-repo
+   24  docker build -t <deekshith9940>/my-first-repo
+   25  docker build -t deekshith9940/my-first-repo .
+   26  docker run -t deekshith9940/my-first-repo 
+   27  docker run deekshith9940/my-first-repo 
+   28  docker run --help
+   29  docker run deekshith9940/my-first-repo:latest 
+   30  docker run deekshith9940/my-first-repo:latest 
+   31  docker push deekshith9940/my-first-repo:latest
+   32  docker build . -t deekshith9940/my-first-repo
+   33  docker images
+   34  docker pull ubuntu
+   35  docker run -it -d ubuntu
+   36  docker ps -a
+   37  docker exec -it 0fe49924d2f8 bash
+   38  docker exec 0fe49924d2f8 bash
+   39  docker exec -t 0fe49924d2f8 bash
+   40  echo hello
+   41  ;
+   42  docker exec -t 0fe49924d2f8 bash
+   43  echo hello
+   44  hello
+   45  docker stop 0fe49924d2f8
+   46  docker commit 0fe49924d2f8 deekshith9940/ubuntu
+   47  docker images
+   48  docker login
+   49  docker push deekshith9950/ubuntu
+   50  docker images
+   51  docker images
+   52  cat >DockerFile
+   53  docker build -t deekshith9940/DockerFile
+   54  docker build -it deekshith9940/DockerFile
+   55  docker build  deekshith9940/DockerFile
+   56  docker build -it deekshith9940/DockerFile
+   57  docker build -t deekshith9940/DockerFile
+   58  docker build --help
+   59  docker build --tag deekshith9940/DockerFile
+   60  docker build .
+   61  docker build .
+   62  docker build .
+   63  docker images
+   64  docker push deekshith9940/ubuntu
+   65  docker push deekshith9940/tomcat
+   66  docker commit 5505f7218e4d deekshith9940/tomcat
+   67  docaker images
+   68  docker images
+   69  docker commit 5505f7218e4d deekshith9940/tomcat
+   70  aws
+   71  aws configure
+   72  aws push
+   73  ls -la
+   74  docker bulid .
+   75  docker build .
+   76  docker build -t cde-2021-docker-img-ecr:1.0 .
+   77  docker build -t cde-2021-docker-img-ecr:1.0 .
+   78  docker images
+   79  (Get-ECRLoginCommand).Password | docker login --username AWS --password-stdin 916980388691.dkr.ecr.us-east-1.amazonaws.com
+   80  docker tag cde2021-group5:latest 916980388691.dkr.ecr.us-east-1.amazonaws.com/cde2021-group5-dvs:latest
+   81  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 916980388691.dkr.ecr.us-east-1.amazonaws.com
+   82  docker tag cde-2021-docker-img-ecr:1.0 916980388691.dkr.ecr.us-east-1.amazonaws.com/cde2021-group5:latest
+   83  docker push 916980388691.dkr.ecr.us-east-1.amazonaws.com/cde2021-group5:latest
+   84  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/cde-2021-group5-dvs
+   85  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/cde-2021-group5-dvs
+   86  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/cde-2021-group5-dvs
+   87  cd cde-2021-group5-dvs
+   88  git branch newFeature
+   89  git checkout newFeature
+   90  cat> newFile.txt
+   91  git add newFile.txt
+   92  git commit newFile.txt
+   93  dit configure
+   94  git configure
+   95   git config --global user.email "venkat910040@gmail.com"
+   96  git config --global user.name "Deekshith"
+   97  git commit newFile.txt
+   98  git add .
+   99  cd commit -m "added"
+  100  cd..
+  101  cd push -u origin newFeature
+  102  cd exit
+  103  exit
+  104  kubenctl
+  105  kubectl
+  106  kubectl pods
+  107  ls -ls
+  108  ls -la
+  109  kubectl create -f httpd-deployment.yml
+  110  kubectl get deployment
+  111  kubectl get pods
+  112  cubectl get service
+  113  kubectl get service
+  114  kubectl get pods
+  115  kubectl describe svc cts-apache
+  116  kubectl get pods
+  117  kubectl get deployment
+  118  kubectl get pods
+  119  kubectl get pods
+  120  kubectl get service
+  121  kubectl get deployment
+  122  kubectl get pods
+  123  kubectl get pods
+  124  kubectl get deployment
+  125  kubectl describe svc cts-apache
+  126  kubectl expose deployment cts-apache
+  127  kubectl describe svc cts-apache
+  128  kubectl get service
+  129  kubectl expose deployment cts-apace --type=NodePort --port=90
+  130  kubectl expose deployment cts-apache --type=NodePort --port=90
+  131  kubectl get services
+  132  kubectl get services
+  133  kubectl get pods
+  134  docker images
+  135  kubectl get services
+  136  kubectl describe svc cts-apache
+  137  kubectl apply -f ngnix-deployment.yml
+  138  kubectl apply -f nginx-deployment.yml
+  139  ls -la
+  140  kubectl get all
+  141  kubectl get nodes
+  142  kubectl apply -f nginx-deployment.yaml
+  143  kubectl apply -f nginx-deployment.yaml
+  144  kubectl apply -f nginx-deployment.yaml
+  145  kubectl apply -f nginx-deployment.yml
+  146  kubectl apply -f nginx-deployment.yml
+  147  kubectl apply -f nginx-deployment.yaml
+  148  kubectl apply -f nginx-deployment.yaml
+  149  kubectl apply -f nginx-deployment.yaml
+  150  kubectl get all
+  151  kebectl get pods
+  152  kubectl get pods --show-labels
+  153  kubectl get rs
+  154  kubectl delete rs<replica-id>
+  155  kubectl delete rs <replica-id>
+  156  kebectl descripe pods
+  157  kebectl describe pods
+  158  kubectl get rs --watch
+  159  kubectl expose deployment nginx-deployment --type=NodePort--port=80
+  160  kubectl expose deployment nginx-deployment --type=NodePort --port=80
+  161  kubectl get service
+  162  kubectl describe svc nginx-deployment
+  163  kubectl describe pod nginx-deployment
+  164  kubectl delete rs 66b6c48dd5 
+  165  kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta8/aio/deploy/recommended.yaml
+  166  kubectl get secret -n kubernetes-dashboard $(kubectl get serviceaccount dashboard-admin -n kubernetes-dashboard -o jsonpath="{.secrets[0].name}") -o jsonpath="{.data.token}" | base64 --decode
+  167  kubectl apply -f k8s-dashboardaccount
+  168  kubectl apply -f k8s-dashboardaccount.yaml
+  169  kubectl get secret -n kubernetes-dashboard $(kubectl get serviceaccount dashboard-admin -n kubernetes-dashboard -o jsonpath="{.secrets[0].name}") -o jsonpath="{.data.token}" | base64 --decode
+  170  kebectl proxy
+  171  kubectl proxy
+  172  kubectl describe sa dashboard-admin
+  173  kubectl proxy
+  174  kubectl proxy
+  175  minikube start
+  176  minikube start
+  177  minikube status
+  178  minikube start
+  179  minikube start
+  180  minikube start
+  181  minikube start
+  182  minikube start
+  183  minikube start --driver='docker'
+  184  minikube delete
+  185  minikube start --driver='docker'
+  186  kubectl get all
+  187  kubectl apply -f httpd-deployment.yaml
+  188  kubectl apply -f nginx-deployment.yaml
+  189  kubectl get services
+  190  kubectl expose deployment nginx-deployment --type=NodePort --port=80
+  191  kubectl get services
+  192  minikube service nginx-deployment
+  193  minikube service nginx-deployment
+  194  minikube dashboard
+  195  kubectl apply -f mongo-deployment.yaml
+  196  kubectl apply -f mongo-deployment.yaml
+  197  kubectl get services
+  198  kubectl expose deployment mongo-deployment --type=NodePort --port=80
+  199  kubectl apply -f employee-app.yaml
+  200  kubectl gwt deployments
+  201  kubectl get deployments
+  202  kubectl expose deployment mongo --type=NodePort --port=27017
+  203  kubectl expose deployment emp-app --type=NodePort --port=80
+  204  kubectl describe services
+  205  minikube service emp-app
+  206  minikube service emp-app
+  207  minikube service emp-app
+  208  minikube service emp-app
+  209  kubectl apply -f httpd-deployment.yml
+  210  kubectl apply -f httpd-deployment.yml
+  211  kubectl get deployments
+  212  kubectl apply -f httpd-deployment.yml
+  213  kubectl get pods
+  214  kubectl apply -f nginx-deployment.yaml
+  215  minikube service nginx-deployment
+  216  minikube start --driver='docker'
+  217  kubectl get pods
+  218  minikube service nginx-deployment
+  219  minikube start --driver='docker'
+  220  minikube start --driver='docker'
+  221  minikube start --driver='docker'
+  222  minikube start --driver='docker'
+  223  minikube start --driver='docker'
+  224  minikube start --driver='docker'
+  225  minikube start --driver='docker'
+  226  minikube start --driver='docker'
+  227  minikube start --driver='docker'
+  228  minikube start --driver='docker'
+  229  minikube start --driver='docker'
+  230  minikube start --driver='docker'
+  231  minikube start --driver='docker'
+  232  kubectl get deployment
+  233  kubectl apply -f mongo-deployment.yaml
+  234  kubectl apply -f employee-app.yaml
+  235  kubectl expose deployment mongo --type=NodePort --port=27017
+  236  kubectl expose deployment emp-app --type=NodePort --port=8888
+  237  kubectl create service clusterip mongo --tcp=27017:27017
+  238  minikube service emp-app
+  239  docker build -t deekshith9940/authorizationauthorization
+  240  docker build -t deekshith9940/authorizationservice .
+  241  docker build -t deekshith9940/authorizationservice .
+  242  docker images
+  243  docker run -p 8080:8084 -t deekshith9940/authorizationservice
+  244  history > junk.txt
