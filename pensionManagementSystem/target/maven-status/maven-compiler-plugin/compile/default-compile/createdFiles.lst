@@ -1,0 +1,12 @@
+com\pensionManagementSystem\client\AuthorizationMicroserviceClient.class
+com\pensionManagementSystem\model\PensionerInput.class
+com\pensionManagementSystem\model\PensionDetail.class
+com\pensionManagementSystem\controller\LoginController.class
+com\pensionManagementSystem\model\ProcessPensionInput.class
+com\pensionManagementSystem\client\ProcessPensionMicroserviceClient.class
+com\pensionManagementSystem\model\Bank.class
+com\pensionManagementSystem\model\JWTResponse.class
+com\pensionManagementSystem\controller\PensionerInputController.class
+com\pensionManagementSystem\PensionManagementSystemApplication.class
+com\pensionManagementSystem\model\PensionerDetail.class
+com\pensionManagementSystem\model\User.class
